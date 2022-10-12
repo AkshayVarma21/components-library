@@ -1,0 +1,30 @@
+.app-header{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    height:3.5rem;
+    z-index:1030;
+    box-shadow:0 0 0 1px rgba(20,20,31,.05),0 1px 3px 0 rgba(20,20,31,.15)
+}
+
+.hamburger{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:.5rem;
+    cursor:pointer;
+    height:2.25rem;
+    width:2.25rem;
+    transition:background-color .3s linear;
+    font:inherit;
+    color:inherit;
+    text-transform:none;
+    background-color:transparent;
+    border:0;
+    border-radius:.25rem;
+    margin:0;
+    overflow:visible;
+    outline:0
+}
