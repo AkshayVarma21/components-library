@@ -10,7 +10,6 @@ const Sidebar = () => {
     const onClickComponent = (value: string) => {
         history(`/${value}`);
     }
-    debugger;
     return (
         <>
             <header className="px-3 py-3">

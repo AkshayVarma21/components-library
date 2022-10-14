@@ -4,6 +4,7 @@ import {
     Route,
 } from 'react-router-dom';
 import Sidebar from "../Sidebar/Sidebar";
+import Buttons from "../../Components/Buttons/Buttons";
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
                 <Sidebar />
                 <div className="app-main page">
                     <Routes>
-                        {/* <Route path="/buttons" element={<Buttons />} /> */}
+                        <Route path="/buttons" element={<Buttons />} />
                     </Routes>
                 </div>
             </BrowserRouter>
