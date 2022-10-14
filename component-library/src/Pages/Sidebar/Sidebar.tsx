@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
-import '../../Static/commonStyles.scss';
+import '../../Static/css/commonStyles.scss';
 
 const Sidebar = () => {
     const history = useNavigate();
@@ -33,6 +33,9 @@ const Sidebar = () => {
                 </div>
                 <div className="text-align-start px-3 cursor-pointer" onClick={() => onClickComponent("activity")}>
                     Activity
+                </div>
+                <div className="text-align-start px-3 cursor-pointer" onClick={() => onClickComponent("converter")}>
+                    Unit Converter
                 </div>
             </div>
         </>

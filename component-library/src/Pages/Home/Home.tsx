@@ -6,6 +6,7 @@ import {
 import Sidebar from "../Sidebar/Sidebar";
 import Buttons from "../../Components/Buttons/Buttons";
 import Activity from '../../Components/Activity/Activity';
+import Converter from '../../Components/Converter/Converter';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                     <Routes>
                         <Route path="/buttons" element={<Buttons />} />
                         <Route path="/activity" element={<Activity />} />
+                        <Route path="/converter" element={<Converter />} />
                     </Routes>
                 </div>
             </BrowserRouter>
