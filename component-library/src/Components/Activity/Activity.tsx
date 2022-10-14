@@ -1,7 +1,7 @@
 import './Activity.scss';
-import '../../Static/commonStyles.scss';
+import '../../Static/css/commonStyles.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faCalendar, faCubes, faList } from "@fortawesome/free-solid-svg-icons";
+import { faCalendar, faCubes, faList } from "@fortawesome/free-solid-svg-icons";
 
 const Activity = () => {
 
