@@ -31,6 +31,9 @@ const Sidebar = () => {
                 <div className="text-align-start px-3 cursor-pointer" onClick={() => onClickComponent("buttons")}>
                     Buttons
                 </div>
+                <div className="text-align-start px-3 cursor-pointer" onClick={() => onClickComponent("activity")}>
+                    Activity
+                </div>
             </div>
         </>
     )
