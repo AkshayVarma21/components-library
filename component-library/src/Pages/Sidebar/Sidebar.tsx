@@ -37,6 +37,9 @@ const Sidebar = () => {
                 <div className="text-align-start px-3 cursor-pointer" onClick={() => onClickComponent("converter")}>
                     Unit Converter
                 </div>
+                <div className="text-align-start px-3 cursor-pointer" onClick={() => onClickComponent("inputs")}>
+                    Input Elements
+                </div>
             </div>
         </>
     )
