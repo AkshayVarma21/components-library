@@ -4,7 +4,7 @@ import { converterJson, lengthUnitsList, weightUnitsList, conversionList } from 
 interface ConversionItem {
     label: string,
     value: string,
- }
+}
 
 const Converter = () => {
     const [convertFrom, setConvertFrom] = useState<string>("");
@@ -46,21 +46,21 @@ const Converter = () => {
                     <label className='sub-header'>Select format</label>
                     <select className="custom-select" onChange={(e) => { onSelectConversionType(e) }}>
                         <option value=""> Choose... </option>
-                        {conversionList.map((item) => <option value={item.value}> {item.label} </option>)}
+                        {conversionList.map((item, index) => <option value={item.value} key={index}> {item.label} </option>)}
                     </select>
                 </div>
                 <div className="form-group">
                     <label className='sub-header'>From</label>
                     <select className="custom-select" onChange={(e) => onSelectConvertFrom(e)} value={convertFrom}>
                         <option value=""> Choose... </option>
-                        {selectedFormat.map((item) => <option value={item.value}> {item.label} </option>)}
+                        {selectedFormat.map((item, index) => <option value={item.value} key={index}> {item.label} </option>)}
                     </select>
                 </div>
                 <div className="form-group">
                     <label className='sub-header'>To</label>
                     <select className="custom-select" onChange={(e) => onSelectConvertTo(e)} value={convertTo}>
                         <option value=""> Choose... </option>
-                        {selectedFormat.map((item) => <option value={item.value}> {item.label} </option>)}
+                        {selectedFormat.map((item, index) => <option value={item.value} key={index}> {item.label} </option>)}
                     </select>
                 </div>
                 {setConvertedValue() && convertTo && convertFrom &&

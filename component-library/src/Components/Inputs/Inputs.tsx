@@ -33,8 +33,8 @@ const Inputs = () => {
 
             {/* Dropdown */}
             <div className="sub-header my-4">Dropdown</div>
-            <select className="form-select" aria-label="Default select example">
-                <option selected>Open this select menu</option>
+            <select className="form-select" aria-label="Default select example" defaultValue={"1"}>
+                <option >Open this select menu</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -42,8 +42,8 @@ const Inputs = () => {
 
             {/* Dropdown Sizes*/}
             <div className="sub-header my-4">Dropdown Sizes</div>
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                <option selected>Open this select menu</option>
+            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg example" defaultValue={"1"}>
+                <option >Open this select menu</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
@@ -52,15 +52,15 @@ const Inputs = () => {
 
             {/* Dropdown Disabled*/}
             <div className="sub-header my-4">Dropdown Disabled</div>
-            <select className="form-select" aria-label="Disabled select example" disabled>
-                <option selected>Open this select menu</option>
+            <select className="form-select" aria-label="Disabled select example" disabled defaultValue={"1"}> 
+                <option >Open this select menu</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
             </select>
 
-            <select className="form-select form-select-sm" aria-label=".form-select-sm example">
-                <option selected>Open this select menu</option>
+            <select className="form-select form-select-sm" aria-label=".form-select-sm example" defaultValue={"1"}>
+                <option >Open this select menu</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
