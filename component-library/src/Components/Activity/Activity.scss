@@ -1,0 +1,119 @@
+.media{
+    display:flex;
+    align-items:flex-start
+}
+.media-body{
+    flex:1
+}
+
+.timeline{
+    margin:0;
+    padding:0;
+    display:block
+}
+.timeline-heading{
+    margin-top:.25rem;
+    font-size:1em
+}
+.timeline-heading .custom-control-inline{
+    vertical-align:middle;
+    margin-right:0;
+    margin-top:-4px
+}
+
+.timeline-item{
+    position:relative;
+    display:flex
+}
+.timeline-item:first-child .timeline-body,.timeline-item:first-child .timeline-figure{
+    padding-top:0
+}
+.timeline-item:last-child .timeline-body,.timeline-item:last-child .timeline-figure{
+    margin-bottom:1.25rem
+}
+.timeline-figure{
+    position:relative;
+    padding:.5rem 0
+}
+.timeline-figure:before{
+    content:"";
+    position:absolute;
+    display:block;
+    height:100%;
+    top:1rem;
+    left:50%;
+    margin-left:-1px;
+    border-left:2px solid rgba(34,34,48,.1)
+}
+.timeline-dashed-line .timeline-figure:before{
+    border-left-style:dashed
+}
+.timeline-figure .tile{
+    position:relative;
+    box-shadow:0 0 0 2px #f6f7f9;
+    z-index:2
+}
+.timeline-fluid .timeline-figure{
+    padding-top:.25rem;
+    padding-bottom:.25rem
+}
+
+.timeline-body{
+    width:100%;
+    margin-left:1.25rem;
+    padding:.5rem 0
+}
+.timeline-fluid .timeline-body{
+    padding-top:.25rem;
+    padding-bottom:.25rem
+}
+.timeline-date{
+    font-size:.75rem;
+    color:#888c9b
+}
+
+.tile{
+    display:inline-block;
+    width:2rem;
+    height:2rem;
+    color:#888c9b;
+    font-weight:600;
+    font-size:1rem;
+    background-color:#e6e8ed;
+    line-height:2rem;
+    text-align:center;
+    vertical-align:middle;
+    border-radius:.25rem
+}
+.tile-img{
+    position:relative;
+    background-color:transparent;
+    overflow:hidden
+}
+
+.tile-sm{
+    width:1.5rem;
+    height:1.5rem;
+    font-size:.75rem;
+    line-height:1.5rem
+}
+
+
+.tile-circle{
+    border-radius:4rem
+}
+.tile>img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    -o-object-fit:cover;
+    object-fit:cover;
+    -o-object-position:top;
+    object-position:top
+}
+a.tile{
+    outline:0;
+    background-color:#d7dae2
+}

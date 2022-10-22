@@ -1,0 +1,113 @@
+
+.cursor-pointer{
+    cursor:pointer
+}
+
+.text-align-start{
+    text-align: start;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.header{
+    font-size: 30px;
+    font-weight: bold;
+    color:crimson;
+    text-align: center;
+}
+
+.sub-header{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.selected-component {
+    font-weight: 600;
+    color: #346cb0 !important;
+}
+
+.form-control{
+    display:block;
+    width:100%;
+    height:calc(1.5em + .75rem + 2px);
+    padding:.375rem .75rem;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#363642;
+    background-color:#fff;
+    background-clip:padding-box;
+    border:1px solid #c6c9d5;
+    border-radius:.25rem;
+    transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+.form-control:focus{
+    color:#363642;
+    background-color:#fff;
+    border-color:#346cb0;
+    outline:0;
+    box-shadow:0 0 0 1px #346cb0
+}
+
+.form-control:disabled,.form-control[readonly]{
+    background-color:#f6f7f9;
+    opacity:1
+}
+
+.form-group{
+    margin-bottom:1rem
+}
+.form-text{
+    display:block;
+    margin-top:.25rem
+}
+.form-row{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:-5px;
+    margin-left:-5px
+}
+.form-row>.col,.form-row>[class*=col-]{
+    padding-right:5px;
+    padding-left:5px
+}
+.form-check{
+    position:relative;
+    display:block;
+    padding-left:1.25rem
+}
+.form-check-input{
+    position:absolute;
+    margin-top:.3rem;
+    margin-left:-1.25rem
+}
+.form-check-input:disabled~.form-check-label,.form-check-input[disabled]~.form-check-label{
+    color:#888c9b
+}
+.form-check-label{
+    margin-bottom:0
+}
+.custom-select{
+    display:inline-block;
+    width:100%;
+    height:calc(1.5em + .75rem + 2px);
+    padding:.375rem 1.75rem .375rem .75rem;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#363642;
+    vertical-align:middle;
+    background:linear-gradient(180deg,#fff,#f6f7f9) url("data:image/svg+xml;charset=utf-8,%3Csvg width='14' height='14' fill='%23888c9b' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1408 704q0 26-19 45l-448 448q-19 19-45 19t-45-19L403 749q-19-19-19-45t19-45 45-19h896q26 0 45 19t19 45z'/%3E%3C/svg%3E") no-repeat right .75rem center/8px 10px;
+    border:1px solid #c6c9d5;
+    border-radius:.25rem;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none
+}
+.custom-select:focus{
+    border-color:#346cb0;
+    outline:0;
+    box-shadow:0 0 0 1px #346cb0
+}
